@@ -6,7 +6,8 @@
 
 所有连线观众的 AI 项目会汇总在一面「项目墙」上展示：
 
-- **查看**：打开 [wall/index.html](wall/index.html) 即可（需先执行一次生成，见下）
+- **在线查看**：[https://sunsiyuan.github.io/sunge-ai-clinic-hours/wall/index.html](https://sunsiyuan.github.io/sunge-ai-clinic-hours/wall/index.html)（GitHub Pages）
+- **本地查看**：打开 [wall/index.html](wall/index.html)（需先执行一次生成，见下）
 - **生成**：在项目根目录执行 `node wall/generate.js --html`，会扫描 `episodes/` 并生成 `wall/manifest.json` 与 `wall/index.html`
 - **小红书主账号**：在 `wall/config.json` 配置账号名与链接后，项目墙头部会展示「小红书：孙哥火星殖民计划」等（与直播室头像复用同一头像）
 
