@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencies (若日后引入 npm 等)
+node_modules/
+
+# Local / env（若日后有本地配置或密钥）
+.env
+.env.local
+*.local
+
+# 生成物可选忽略（当前 wall 的 index.html / manifest 已纳入版本管理，如需忽略可取消注释）
+# wall/index.html
+# wall/manifest.json
