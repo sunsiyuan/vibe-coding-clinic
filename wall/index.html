@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>孙哥的 AI 急诊时间 · 观众项目墙</title>
+  <title>Vibe Coding 急诊室 · 嘉宾项目墙</title>
   <style>
     :root { --bg: #1a1a1e; --card: #25252c; --text: #e4e4e7; --muted: #71717a; --accent: #a78bfa; }
     * { box-sizing: border-box; }
@@ -47,9 +47,9 @@
 </head>
 <body>
   <header class="wall-header">
-    <img class="clinic-logo" src="clinic-logo.png" alt="孙哥的 AI 急诊时间" />
-    <h1>孙哥的 AI 急诊时间 · 观众项目墙</h1>
-    <p class="sub">连线观众的 AI 项目集合 · 共 1 个</p>
+    <img class="clinic-logo" src="clinic-logo.png" alt="Vibe Coding 急诊室" />
+    <h1>Vibe Coding 急诊室 · 嘉宾项目墙</h1>
+    <p class="sub">嘉宾的 vibe coding 项目集合 · 共 1 个</p>
     <p class="xhs-account">小红书：<a href="https://xhslink.com/m/347PPrsh22Q" target="_blank" rel="noopener">孙哥火星殖民计划</a></p>
   </header>
   <div class="wall" id="wall"></div>
@@ -73,7 +73,7 @@
         const linkOrText = post.url ? '<a href="' + post.url + '" target="_blank" rel="noopener">' + titleEsc + '</a>' : '<span>' + titleEsc + '</span>';
         return '<div class="recap-item">' + linkOrText + ex + '</div>';
       }).join('');
-      const recapEl = recapItems ? '<details class="card-recap"><summary>AI急诊时间复盘</summary><div class="recap-body">' + recapItems + '</div></details>' : '';
+      const recapEl = recapItems ? '<details class="card-recap"><summary>Vibe Coding 急诊室复盘</summary><div class="recap-body">' + recapItems + '</div></details>' : '';
       const inner = top + summaryEl + linkEl + recapEl;
       return '<div class="card"><div class="card-inner">' + inner + '</div></div>';
     }).join('\n');
